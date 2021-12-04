@@ -35,3 +35,12 @@ but I ahppen to try it recently and wanted to share my experiences so here we go
 > Baseline Application
 >> Show Sample Hobby App
 
+OK so this is a base app to show both one way and two way APIs in action. 
+
+You can find the link to this repo in the description
+
+This is a technical demo app with the front end being a simple HTML5 Page but on the backend there is a REST API Server providing Add and Subtract Services
+There is also a WebSocker Socket server which provides the Clock Service which is sending the server clock info to the client on a periodic basis
+
+The Web page also has the option to access the Add and Sub service using the WebSocket APIs
+

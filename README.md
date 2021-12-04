@@ -10,6 +10,8 @@ Learn AWS Copilot with me
 
 🛣️ [Amazon Container Roadmap](https://github.com/aws/containers-roadmap)
 
+🔥❄️✔️😂 [Sample Hobby App Repository] (https://github.com/julianfrank/samplehobbyapp)
+
 ## Diagrams
 
 
