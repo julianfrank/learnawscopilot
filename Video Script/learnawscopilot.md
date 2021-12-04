@@ -26,7 +26,7 @@ Most of these would would have low traffic volume and not have commercial value 
 
 Over the years the option available have increased making this a very interesting "Hobby" for me.
 
-Off late I've been playing around with functions provided by different clouds and slowly and steadily I'm seeing "container serverless" slowly becoming more and more mature every year. 
+Off late I've been playing around with functions provided by different clouds and slowly and steadily I'm seeing "container as Functions" slowly becoming more and more mature every year. 
 
 This is not a new solution ...Its been around for more than 5 years! Also Copilot is also not new ...It went GA last ...novemebr 2020
 
@@ -55,4 +55,45 @@ OK back to our topic
 This is basically the outline of wha we are going to see today
 
 Dont worry its not as complicated as it looks 
+
+> One Step back
+>> Show Pre-Requisites diagram
+
+You need to understand some cloud basics before we go deeper into this solution. 
+
+The main purpose of ECS is to run Containers and hence I beilve you understand what containers are, what container repository mean and how they work together
+
+I'm also assuming that you understnad code repositories. I'm sure you should be well versed with git and the multiple git repositories like github, gitlab, bitbucket and superscaler provided git repositories provided in azure devops, aws codestar etc
+
+Cloud Logs is another important aspect that gets missed out but is super important when you app gets super complicated
+
+CICD for automated testing, integration and deployment from code repo to builders to container repository to container runtimes
+
+Cloud State manageent is a enterprise concept but I already see the benefit esp when the app spans multiple clouds
+
+Cloud Builders take the code in the repo and build the impages and load them into container repositories
+
+This is a minimum you should have a fair understanding of for the rest of this video to make sense for you
+
+> Amazon Container Service
+>> show aws cloud services picture
+Amazon Container Service is the service that brings the benefits of Container based workloads with serveless paradigms
+
+U see Containers let you write your code in any language you want and keeps you code ready to be run in any container runtime provided by the different cloud providers
+
+Functions let you run the code in an environment where you get infrastructure like compute and memory in response to user requests and events and when the response is provided, they are removed and not billed!
+
+This makes running app with spikey usage to be very cost effective. And Cost effectiveness is very important for Hobby Stack
+
+Container Runtimes like the various Kubernetes and in house engines need compute and memory to be reserved and hence you end up paying for your app even if you are the only user and you end up uding only during weekends!
+That is very innefecient and hence I had been staying away from containers. 
+
+Then came FARGATE and changed the game. It changed the ECS to be used only when triggered and promised to bring the utility model of functions available with App working in containers
+
+thats cool but then in practise that meant writing a lot of shell scripts or complex cicd to make it work
+
+This is where aws brought co-pilot
+
+>copilot
+>> show copilot picture
 
