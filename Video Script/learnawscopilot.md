@@ -44,3 +44,15 @@ There is also a WebSocker Socket server which provides the Clock Service which i
 
 The Web page also has the option to access the Add and Sub service using the WebSocket APIs
 
+So Reasonably complex as the backend for the webpage, REST and webSocket are all separate. 
+
+Try to make them work together... Its fun... You'll a lot about web technologies
+
+> About amazon Container Service
+>> Show Topics Diagram
+OK back to our topic
+
+This is basically the outline of wha we are going to see today
+
+Dont worry its not as complicated as it looks 
+
