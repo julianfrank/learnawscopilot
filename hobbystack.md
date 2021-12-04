@@ -10,7 +10,7 @@ Last Updated : Dec2021
 >> - Use Asyncronous 2-way APIs like **W**eb**S**ocket & **W**eb**RTC**
 > - Cost -> almost 0
 > - Cloud Agnostic
-> - Multi-Cloud - Components work across different Clouds (Not necessarily from same vendor)
+> - Multi-Cloud Resilience - Components work across different Clouds (Not necessarily from same vendor)
 > - Cloud Portable -> Can be moved without code change
 > - Optional Advanced Capabilities
 >> - Conversational AI
