@@ -92,8 +92,14 @@ Then came FARGATE and changed the game. It changed the ECS to be used only when 
 
 thats cool but then in practise that meant writing a lot of shell scripts or complex cicd to make it work
 
-This is where aws brought co-pilot
+This is where aws brought co-pilot to help you out
 
 >copilot
 >> show copilot picture
+
+From their homepage they claim to help with managing multiple app architectures, continous delivery and even operations!
+
+well we could get into a lot of theory but lets get practical... So lets jump to the terminal and clone the samplehobbyapp repo to get us started
+
+For this repo we'll need aws configured along with nodejs and Npm
 
